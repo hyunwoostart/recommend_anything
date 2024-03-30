@@ -6,7 +6,7 @@ function Header() {
     <>
         <header className='header'>
             <div className='header_wrap'>
-                <h1>anything</h1>
+                <h1><a href='#'>anything</a></h1>
                 <div className='header_location'>
                     <span className='from_location'>Deliver to: </span>
                     <span className='current_location'>Current Location</span>
