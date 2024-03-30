@@ -8,6 +8,8 @@
 
 .popular_wrap {
     display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
 }
 
 .popular_wrap li + li {

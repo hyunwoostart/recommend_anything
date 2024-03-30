@@ -23,6 +23,7 @@ footer button {
 }
 .footer_top {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     padding-bottom: 100px;
     border-bottom: 2px solid #424242;
@@ -43,8 +44,13 @@ footer ul li {
     margin-bottom: 16px;
 }
 
+.company_wrap {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
 .company_wrap div + div {
-    margin-left: 116px;
+    // margin-left: 116px;
 }
 
 footer .address_wrap p {
