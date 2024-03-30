@@ -1,0 +1,62 @@
+@charset "utf-8";
+@import '../_variables.scss';
+
+.proceed_wrap h3 {
+    line-height: 1;
+}
+
+.proceed_wrap h3, .proceed_wrap h3 span {
+    margin-bottom: 0;
+    text-align: initial;
+    font-weight: $font-bold;
+    font-size: 2rem;
+}
+
+.proceed_wrap h3 span {
+    color: $primary-color;
+    // margin: 20px 0 110px;
+}
+
+.proced_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: $color-white;
+    margin-bottom: 80px;
+    box-shadow: 0px 14px 15px rgba(124, 124, 124, 0.06), 0px 27px 82px rgba(124, 124, 124, 0.28);
+}
+
+.proced_box .procced_info h3 span {
+    margin-left: 4px;
+}
+
+.proced_box img {
+    width: 60%;
+}
+
+.proced_box .btn span {
+    position: relative;
+    text-transform: uppercase;
+    color: $color-white;
+}
+
+.proced_box .btn span::after {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: '';
+    display: block;
+    width: 10px;
+    height: 16px;
+    background: url(../../images/common/ico_arrow.png) center / contain  no-repeat;
+}
+
+.procced_info {
+    padding: 56px;
+}
+
+.procced_info p {
+    margin: 20px 0 100px;
+}
+

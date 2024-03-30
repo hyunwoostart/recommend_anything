@@ -1,0 +1,123 @@
+@charset "utf-8";
+@import '../_variables.scss';
+
+.featlist_wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 88px;
+}
+
+.featlist_wrap li {
+    width: 23%;
+    margin-bottom: 64px;
+}
+
+.featlist_wrap li img {
+    border-radius: $border-radiu;
+}
+
+.featlist_wrap .img_wrap {
+    position: relative;
+}
+
+.featlist_wrap .label_box {
+    position: absolute;
+    top: 4%;
+    left: 2%;
+    display: flex;
+}
+
+.featlist_wrap .label_box .label_small {
+    position: relative;
+    padding: 8px 16px 8px 32px;
+    border-radius: 8px;
+}
+
+.featlist_wrap .label_box .label_small.label_sale::before {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url('../../images/main/ico_marker.png') center / contain no-repeat;
+}
+
+.featlist_wrap .label_box .label_small.label_howlong::before{
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url('../../images/main/ico_time.png') center / contain no-repeat;
+}
+
+.featlist_wrap .label_box .label_small + .label_small {
+    margin-left: 8px;
+}
+
+.featlist_wrap .label_box .label_small span + span {
+    margin-left: 4px;
+}
+
+.featlist_wrap .label_box span {
+    display: inline-block;
+}
+
+.featlist_wrap .label_sale {
+    background: $primary-color;
+}
+
+.featlist_wrap .label_howlong {
+    background: $sub-color;
+}
+
+.featlist_wrap .label_sale span,
+.featlist_wrap .label_howlong span {
+    color: $color-white;
+}
+
+.infobrand_wrap {
+    display: flex;
+    align-items: center;
+    margin: 24px 0 32px;
+}
+
+.infobrand_wrap > div {
+    margin-left: 24px;
+}
+
+.infobrand_wrap p {
+    font-weight: $font-bold;
+    color: #424242;
+}
+
+.infobrand_wrap span {
+    display: inline-flex;
+    font-weight: $font-bold;
+    color: $primary-color;
+}
+
+.infobrand_wrap .icon {
+    display: inline-block;
+    width: 24px; 
+    height: 18px; 
+    background: url('../../images/main/ico_star.png') center / contain no-repeat;
+}
+
+
+.small_img {
+    width: 64px;
+}
+
+.featlist_container .btn {
+    margin: 0 auto;
+    width: 178px;
+    height: 60px;
+}

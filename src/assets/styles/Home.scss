@@ -1,0 +1,129 @@
+@charset "utf-8";
+@import './_variables';
+
+
+.bg_wrap01 {
+    padding: 132px 0;
+    margin-bottom: 80px;
+    background: url(../images/main/main_bg.png) center / cover no-repeat;
+}
+
+.main_container .main_tit {
+    font-size: 6rem;
+    line-height: 1.4;
+    color: #fff;
+}
+
+.main_container .main_subtit {
+    margin-bottom: 32px;
+}
+
+.main_cnt {
+    padding: 24px;
+    max-width: 856px;
+    width: 100%;
+    border-radius: $border-radiu;
+    background-color: #fff;
+}
+
+.main_cnt .main_tabs {
+    display: flex;
+}
+
+.main_cnt .main_tabs li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 148px;
+    font-weight: $font-bold;
+}
+
+.main_cnt .main_tabs li.active {
+    position: relative;
+    display: inline-flex;
+    padding: 10px 16px;
+    background: rgba(229, 9, 20, 0.2);
+    font-weight: 700;
+    border-radius: 8px;
+}   
+
+.main_cnt .main_tabs li + li {
+    margin-left: 8px;
+}
+
+.main_cnt .main_tabs li span {
+    margin-left: 10px;
+}
+
+.main_cnt .main_tabs li.active span {
+    color: $sub-color;
+}
+
+.main_cnt .main_tabs li.cnt_delivery::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 14px;
+    background: url('../images/common/ico_delivery.png') center / cover no-repeat;
+}
+
+.main_cnt .main_tabs li.cnt_pickup::before {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    background: url('../images/common/ico_pickup.png') center / cover no-repeat;
+}
+
+.search_wrap {
+    display: flex;
+    align-items: center;
+}
+
+.main_cnt .search_wrap input {
+    position: relative;
+    width: 90%;
+    height: 50px;
+    padding: 7px 0px 8px 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+}
+
+.main_cnt .search_wrap .btn_address {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 18px;
+    height: 25px;
+    background: url('../images/common/ico_location.png') center / cover no-repeat;
+}
+
+.main_cnt .search_wrap .btn {
+    width: 200px;
+    height: 60px;
+}
+
+.main_cnt .search_wrap .btn span {
+    position: relative;
+    color: $color-white;
+}
+
+.main_cnt .search_wrap .btn span::before {
+    position: absolute;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url('../images/common/ico_search.png') center / contain no-repeat;
+}
+
+.main_tabs {
+    padding-bottom: 24px;
+}
