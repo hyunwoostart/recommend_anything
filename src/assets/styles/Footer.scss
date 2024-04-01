@@ -2,7 +2,7 @@
 @import './_variables.scss';
 
 footer {
-    padding: 100px 0 130px;
+    padding: 100px 0 80px;
     margin-bottom: 0 !important;
     background: #000;
 }
@@ -13,6 +13,10 @@ footer li,
 footer a,
 footer button {
     color: $color-white;
+}
+
+.footer_container {
+    margin-bottom: 0;
 }
 
 .footer_container .sub_tit {
