@@ -68,17 +68,28 @@
 }
 
 .product_container .prd_prepare .tabs li {
+    position: relative;
     width: 33.333%;
-    padding-bottom: 10px;
     text-align: center;
+    cursor: pointer;
 }
 
 .product_container .prd_prepare .tabs li.on {
-    border-bottom: 4px solid $primary-color;
     color: $primary-color;
 }
 
+.product_container .prd_prepare .tabs li.on::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    height: 4px;
+    background: $primary-color;
+}
+
 .product_container .prd_prepare .tabs li.on span {
+    padding-bottom: 10px;
     color: $primary-color;
 }
 
@@ -136,7 +147,6 @@
 .product_container .tabs_cnt ul li {
     padding: 10px;
     border: $border-line;
-
 }
 
 .product_container .tabs_cnt > div {
@@ -199,6 +209,16 @@
     .score_detail {
         padding: 0 0 0 20px;
     }
+
+    .score_detail div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .score_detail div span {
+        margin-left: 8px;
+    }
+
 
     .review_count {
         display: flex;

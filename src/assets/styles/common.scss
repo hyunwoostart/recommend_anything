@@ -245,3 +245,30 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+.accordion_wrap .item .btn {
+  position: relative;
+  background-color: $subtxt-color;
+  text-align: left;
+  border-radius: 0;
+}
+
+.accordion_wrap .item .cnt {
+  // display: none;
+  padding: 15px;
+}
+
+.accordion_wrap .item .cnt strong {
+  display: block;
+}
+
+.accordion_wrap .item .btn.large::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  width: 7px;
+  height: 12px;
+  background: url('../images/common/ico_arrow.png') center / cover no-repeat;
+  transform: translateY(-50%) rotate(90deg);
+}
