@@ -10,6 +10,7 @@ import ProceedItem from '../components/ProceedItem'
 import ReadyTo from '../components/ReadyTo'
 
 function Home() {
+
   return (
     <>
         <div className='bg_wrap01'>

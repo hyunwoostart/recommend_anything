@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from './layouts/Footer';
 import Login from './layouts/Login';
 import Product from './layouts/Product.js'
+import PrdPayment from './layouts/PrdPayment.js';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/product' element={<Product />} />
           <Route path='/' element={<Home />}/>
+          <Route path='/payment' element={<PrdPayment />}/>
           {/* <Product /> */}
         </Routes>
         <Footer />
