@@ -62,7 +62,9 @@ function Product() {
 
                 </div>
                 <div className='prd_paper'>
-                    <h3>주문표</h3>
+                    <Link to="/orderlist">
+                        <h3>주문표</h3>
+                    </Link>
                     <div>
                         <p>주문표에 담긴 메뉴가 없습니다</p>
                         <span>배달요금<span>1500</span>원 별도</span>

@@ -80,11 +80,9 @@
                 }
 
                 // &.pay_naver::before {
-                    
                 // }
 
                 // &.pay_toss::before {
-                   
                 // }
 
                 &.pay_money::before {
@@ -95,8 +93,6 @@
             }
         }
     }
-    
-
     .discount_method {
         h4 {
             width: 30%;
@@ -112,6 +108,10 @@
                 height: 3rem;
             }
         }
+    }
+
+    .prd_paper > div {
+        background-color: $fill-color;
     }
 
 }

@@ -8,8 +8,10 @@ import Footer from './layouts/Footer';
 import Login from './layouts/Login';
 import Product from './layouts/Product.js'
 import PrdPayment from './layouts/PrdPayment.js';
+import OrderList from './layouts/OrderList.js';
 
 function App() {
+
   return (
     <div className="app">
       <Router>
@@ -19,6 +21,7 @@ function App() {
           <Route path='/product' element={<Product />} />
           <Route path='/' element={<Home />}/>
           <Route path='/payment' element={<PrdPayment />}/>
+          <Route path='/orderlist' element={<OrderList />}/>
           {/* <Product /> */}
         </Routes>
         <Footer />

@@ -246,6 +246,16 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.accordion_wrap .item {
+  .cnt {
+    display: none;
+    padding: 15px;
+  }
+  &.open .cnt {
+    display: block;
+  }
+}
+
 .accordion_wrap .item .btn {
   position: relative;
   background-color: $subtxt-color;
@@ -253,10 +263,6 @@ input:checked + .slider:before {
   border-radius: 0;
 }
 
-.accordion_wrap .item .cnt {
-  // display: none;
-  padding: 15px;
-}
 
 .accordion_wrap .item .cnt strong {
   display: block;
