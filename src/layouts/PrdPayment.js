@@ -1,7 +1,15 @@
 
+import { useState } from 'react';
 import '../assets/styles/main/PrdPayment.scss'
 
 function PrdPayment() {
+
+    const [activeIndex, setActiveIndex] = useState(0); // 초기 상태로 0을 설정합니다.
+
+    const toggleAccordion = (index) => {
+      setActiveIndex(activeIndex === index ? null : index);
+    };
+
   return (
     <>
         <div className='prdpayment_container product_container'>
@@ -9,8 +17,8 @@ function PrdPayment() {
                 <div className='prd_prepare'>
                     <h2>결제하기</h2>
                     <div className='accordion_wrap'>
-                        <div className='item'>
-                            <button className='btn large'>
+                        <div className={activeIndex === 0 ? "item open" : "item"}>
+                            <button className="btn large" onClick={() => toggleAccordion(0)}>
                                 <p>배달정보</p>
                                 <span className='blind'>닫기</span>
                             </button>
@@ -28,8 +36,8 @@ function PrdPayment() {
                                 </label>
                             </div>
                         </div>
-                        <div className='item'>
-                            <button className='btn large'>
+                        <div className={activeIndex === 0 ? "item open" : "item"}>
+                            <button className="btn large" onClick={() => toggleAccordion(0)}>
                                 <p>주문시 요청사항</p>
                                 <span></span>
                             </button>
@@ -70,6 +78,7 @@ function PrdPayment() {
                     <div>
                         <p>주문표에 담긴 메뉴가 없습니다</p>
                         <span>배달요금<span>1500</span>원 별도</span>
+                        {/* <span>총 결제 금액<span>36,200</span>원</span> */}
                     </div>
                     <button className='btn large'>결제하기</button>
                 </div>

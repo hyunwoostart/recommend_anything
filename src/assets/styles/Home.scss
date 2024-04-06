@@ -36,16 +36,17 @@
     align-items: center;
     min-width: 148px;
     font-weight: $font-bold;
-}
+    cursor: pointer;
 
-.main_cnt .main_tabs li.active {
-    position: relative;
-    display: inline-flex;
-    padding: 10px 16px;
-    background: rgba(229, 9, 20, 0.2);
-    font-weight: 700;
-    border-radius: 8px;
-}   
+    &.active {
+        position: relative;
+        display: inline-flex;
+        padding: 10px 16px;
+        background: rgba(229, 9, 20, 0.2);
+        font-weight: 700;
+        border-radius: 8px;
+    }
+}
 
 .main_cnt .main_tabs li + li {
     margin-left: 8px;

@@ -6,6 +6,10 @@
   .procced_info .btn {
     height: 4rem !important;
   }
+
+  .product_container .prd_prepare .tabs li {
+    padding: 8px !important;
+  }
 }
 
 /* 큰 모바일, 작은 태블릿 - 530 사이즈 */
@@ -87,8 +91,12 @@
         margin-bottom: 24px;
     }
 
-    .featlist_container .featlist_wrap li {
+    .featlist_container .featlist_wrap {
+      margin-bottom: 0px;
+
+      li {
         width: 100%;
+      }
     }
 
     .searchprd_wrap {
@@ -120,7 +128,7 @@
     .btn {      
         // 사이즈 관리
         &.large {
-          height: 3rem;
+          // height: 3rem;
           padding-left: 1rem;
           padding-right: 1rem;
           font-size: 1.25rem;
@@ -209,6 +217,7 @@
         bottom: 0;
         margin: 0 !important;
         display: flex;
+        justify-content: space-between;
         align-items: center;
         background-color: #fff;
         width: 100% !important;
@@ -216,7 +225,11 @@
         z-index: 1;
         
         a {
-          width: 100%;
+          width: 64%;
+
+          &:first-of-type {
+            width: 33.3% !important;
+          }
         }
       }
 
@@ -231,7 +244,7 @@
         justify-content: center;
         align-items: center;
         border-radius: 8px;
-        height: 3rem;
+        height: 4rem;
         z-index: 1;
       }
 
@@ -257,11 +270,32 @@
         }
       }
 
-      
+      .modal {
+        .modal_content {
+          overflow-y: auto;
+          top: auto;
+          left: auto;
+          transform: initial;
+          width: 100%;
+          height: 100%;
+        }
+        .modalbtn_wrap {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          padding: 10px;
+          width: 100% !important;
+          z-index: 2;
+          display: flex;
+          background: $color-white;
+          transform: initial;
+        }
+      }
 }
 
 /* PC 기준 - 1024 사이즈 */
 @media screen and (min-width: 1024px){
+  
 }
 
 

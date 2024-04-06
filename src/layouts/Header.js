@@ -7,9 +7,7 @@ function Header() {
     <>
         <header className='header'>
             <div className='header_wrap'>
-                <Link to="/"> 
-                    <h1><a href='#'>anything</a></h1>
-                </Link>
+                <h1><Link to="/">anything </Link></h1>
                 <div className='header_location'>
                     <span className='from_location'>Deliver to: </span>
                     <span className='current_location'>Current Location</span>

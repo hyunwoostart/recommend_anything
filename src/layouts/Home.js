@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import '../assets/styles/Home.scss'
 import PrdDiscount from '../components/PrdDiscount'
 import CntHow from '../components/CntHow'
@@ -11,6 +11,26 @@ import ReadyTo from '../components/ReadyTo'
 
 function Home() {
 
+    const [activeTab, setActiveTab] = useState('delivery');
+
+    const handleClick = (tab) => {
+        setActiveTab(prevTab => (prevTab === !tab ? null : tab));
+    };
+
+    // const [location, setLocation] = useState({});
+    // useEffect(() => {
+    //   navigator.geolocation.getCurrentPosition(
+    //     (position) => {
+    //       setLocation({
+    //         latitude: position.coords.latitude,
+    //         longitude: position.coords.longitude,
+    //       });
+    //     },
+    //     (error) => console.log(error)
+    //   );
+    // }, []);
+    
+
   return (
     <>
         <div className='bg_wrap01'>
@@ -19,8 +39,12 @@ function Home() {
                 <p className='main_subtit'>Within a few clicks, find meals that are accessible near you</p>
                 <div className="main_cnt">
                     <ul className='main_tabs'>
-                        <li className='cnt_delivery active'><span>Delivery</span></li>
-                        <li className='cnt_pickup'><span>Pickup</span></li>
+                    <li className={`cnt_delivery ${activeTab === 'delivery' ? 'active' : ''}`} onClick={() => handleClick('delivery')}>
+                        <span>Delivery</span>
+                    </li>
+                        <li className={`cnt_pickup ${activeTab === 'pickup' ? 'active' : ''}`} onClick={() => handleClick('pickup')}>
+                        <span>Pickup</span>
+                    </li>
                     </ul>
                     <div className='search_wrap'>
                         <label>
@@ -40,6 +64,8 @@ function Home() {
         <CntInfo />
         <ProceedItem />
         <ReadyTo />
+        {/* <h1>Latitude: {location.latitude}</h1>
+        <h1>Longitude: {location.longitude}</h1> */}
     </>
   )
 }
