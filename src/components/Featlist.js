@@ -4,6 +4,7 @@ import featprdImg from '../assets/images/main/prd_rest01.png'
 import brandlogoImg from '../assets/images/main/img_brand01.png'
 
 function Featlist() {
+
   return (
     <>
         <div className='featlist_container'>

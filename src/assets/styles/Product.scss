@@ -154,6 +154,7 @@
 .product_container .tabs_cnt {
     ul {
         display: flex;
+        margin-bottom: 10px;
 
         li {
             padding: 10px;
@@ -180,10 +181,6 @@
         }
     }
     }
-}
-
-.product_container .tabs_cnt > div {
-    margin-top: 10px;
 }
 
 .product_container .tabs_cnt .item + .item {
@@ -372,7 +369,7 @@ body.active_modal {
     font-size: 18px;
 }
 
-.modal, .overlay {
+.modal {
     overflow-x: hidden;
     overflow-y: auto;
     display: block;
@@ -385,6 +382,7 @@ body.active_modal {
     bottom: 0;
     position: fixed;
     z-index: 10;
+    background: rgba(49,49,49,0.8);
 
     .modal_header {
         position: relative;
@@ -392,9 +390,6 @@ body.active_modal {
     }
 }
 
-.overlay {
-    background: rgba(49,49,49,0.8);
-}
 .modal_content {
     overflow-x: hidden;
     display: block;
@@ -517,6 +512,16 @@ body.active_modal {
     left: 50%;
     transform: translateX(-50%);
 
+    a {
+        width: 100%;
+
+        button {
+            margin-left: 10px;
+            background: $primary-color !important;
+        }
+      
+    }
+
     .btn {
         &:first-child {
             background: $subtxt-color;
@@ -531,8 +536,7 @@ body.active_modal {
     left: 0;
     right: 0;
     overflow-y: auto;
-    // width: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 
     > div {
         padding: 10px 16px 0;
