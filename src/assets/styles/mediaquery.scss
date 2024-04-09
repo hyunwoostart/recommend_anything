@@ -295,7 +295,10 @@
 
 /* PC 기준 - 1024 사이즈 */
 @media screen and (min-width: 1024px){
-  
+  .login_container {
+    // width: 50%;
+    max-width: 764px;
+  }
 }
 
 
