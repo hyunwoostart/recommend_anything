@@ -93,7 +93,7 @@ body {position: relative; min-width: 320px;}
 
 /* 공통 - 레이아웃 */
 .app {position: relative; overflow: hidden;}
-[class$="_container"] {margin: 0 auto 80px; width: 100%; max-width: 1480px;} 
+[class$="_container"] {margin: 0 auto 80px; padding: 0 20px; width: 100%; max-width: 1480px; } 
 // input[type="time"]::-webkit-calendar-picker-indicator {background: none;}
 
 /* form */

@@ -16,19 +16,6 @@ function Home() {
     const handleClick = (tab) => {
         setActiveTab(prevTab => (prevTab === !tab ? null : tab));
     };
-
-    // const [location, setLocation] = useState({});
-    // useEffect(() => {
-    //   navigator.geolocation.getCurrentPosition(
-    //     (position) => {
-    //       setLocation({
-    //         latitude: position.coords.latitude,
-    //         longitude: position.coords.longitude,
-    //       });
-    //     },
-    //     (error) => console.log(error)
-    //   );
-    // }, []);
     
 
   return (
@@ -64,8 +51,6 @@ function Home() {
         <CntInfo />
         <ProceedItem />
         <ReadyTo />
-        {/* <h1>Latitude: {location.latitude}</h1>
-        <h1>Longitude: {location.longitude}</h1> */}
     </>
   )
 }
