@@ -264,6 +264,7 @@
     .review_count {
         display: flex;
         justify-content: space-between;
+        align-items: center;
 
         .count_comment {
             display: flex;
@@ -305,6 +306,7 @@
 
     .review_list ul {
         flex-direction: column;
+        margin-top: 10px;
         strong {
             font-weight: $font-bold;
             font-size: 1.2rem;
