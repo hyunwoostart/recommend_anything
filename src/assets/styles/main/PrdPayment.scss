@@ -1,0 +1,119 @@
+@charset "utf-8";
+@import '../_variables.scss';
+
+
+.product_container {
+    h2 {
+        line-height: 2;
+    }
+    h3 {
+        background: $subtxt-color;
+    }
+    .accordion_wrap .item {
+       
+        p {
+            font-size: 1.4rem;
+        }
+        .cnt label {
+            display: block;
+        }
+        
+        .cnt label + label {
+            margin-top: 10px;
+        }
+
+        .cnt input {
+            margin: 10px 0;
+            padding: 10px 16px;
+            width: 100%;
+            height: 3rem;
+        }
+
+        .cnt textarea {
+            width: 100%;
+            resize: none;
+        }
+    }
+
+    .paymetod_wrap {
+        padding-bottom: 15px;
+        h4 {
+            padding: 10px 0;
+            font-weight: $font-bold;
+        }
+        .paymetod_box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+    
+            li {
+                position: relative;
+                padding: 10px 16px;
+                margin-bottom: 10px;
+                width: 48%;
+                text-align: center;
+                border: $border-line;
+                
+                &.active {
+                    border: $border-primary;
+                    color: $primary-color;
+                    font-weight: $font-bold;
+                }
+
+                &::before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 24px;
+                    height: 24px;
+                }
+
+                &.pay_card::before {
+                    background-image:url(../../images/common/ico_card.svg);
+                }
+
+                &.pay_phone::before {
+                    background-image:url(../../images/common/ico_phone.png);
+                }
+
+                // &.pay_naver::before {
+                // }
+
+                // &.pay_toss::before {
+                // }
+
+                &.pay_money::before {
+                    background-image:url(../../images/common/ico_money.svg);
+                }
+
+
+            }
+        }
+    }
+    .discount_method {
+        h4 {
+            width: 30%;
+            font-weight: $font-bold;
+        }
+        div {
+            display: flex;
+            align-items: center;
+            padding: 15px 0;
+    
+            select {
+                width: 100%;
+                height: 3rem;
+            }
+        }
+    }
+
+    .prd_paper > div {
+        background-color: $fill-color;
+    }
+
+}
+
+

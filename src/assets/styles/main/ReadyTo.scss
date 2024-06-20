@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import '../_variables.scss';
+
+.bg_wrap02 {
+    position: relative;
+    padding: 90px 0 75px;
+    margin-bottom: 0;
+    background: url(../../images/main/cnt_bg01.png) center / cover no-repeat;
+}
+
+.readyto_container {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.readyto_container .tit {
+    font-size: 2rem;
+    color: $color-white;
+}
+
+.readyto_container .btn {
+    width: 233px;
+    height: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.readyto_container .btn span {
+    position: relative;
+    text-transform: uppercase;
+    color: $color-white;
+}
+
+
+
+.readyto_container .btn span::after {
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width: 10px;
+    height: 16px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAcCAYAAABsxO8nAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACCSURBVHgB7dVRDYAgEMbxwwRGMIIRjGADjWIToxhBGxgBG5yfkw2mY/OAzZf7bzdf5DdeAKIgZm4xM6an1Bxi2TeQNCxqMDu/k2FuN7HE2FIEw881ZlVMsT+x6itkjDnw2Sg3vq+XWJMiipREumzEQdc5sllIgD0fyIlSY/9kjyTsBAbCEppBKjY6AAAAAElFTkSuQmCC) center / contain no-repeat;
+}

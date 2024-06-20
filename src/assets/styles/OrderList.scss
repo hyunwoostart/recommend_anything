@@ -1,0 +1,61 @@
+@charset "utf-8";
+@import './_variables.scss';
+
+.orderlist_container {
+    padding: 0 20px;
+    width: 100%;
+    margin-bottom: 40px;
+
+    h3 {
+        padding: 15px;
+        margin-bottom: 0;
+        font-size: 1.4rem;
+        text-align: left;
+        margin-bottom: 0;
+        background: $subtxt-color;
+    }
+
+    .btn_wrap {
+        display: flex;
+        justify-content: space-between;
+        border: none !important;
+        a {
+            width: 100%;
+
+            + a {
+                margin-left: 10px;
+            }
+            &:first-of-type button {
+                background: $sub-color;
+            }
+        }
+
+    }
+
+    .prd_paper p {
+        padding: 25px;
+        text-align: center;
+        border-bottom: $border-line;
+    }
+    
+    .prd_paper div {
+        border: $border-line;
+        margin-bottom: 10px;
+    }
+    
+    .prd_paper div > span {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    
+    .prd_paper div span > span {
+        margin: 0 4px;
+    }
+    
+    .prd_paper button {
+        width: 100%;
+        text-align: center;
+    }
+}

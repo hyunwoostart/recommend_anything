@@ -1,0 +1,50 @@
+@charset "utf-8";
+@import '../_variables.scss';
+
+.discount_container {
+    display: flex;
+    justify-content: space-between;
+}
+.discount_container li + li {
+    margin-left: 16px;
+}
+
+.discount_container li .img_wrap {
+    position: relative;
+}
+
+.discount_container li img {
+    width: 357px;
+    height: 300px;
+    border-radius: $border-radiu;
+}
+
+.label_discount {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
+    background: $primary-color;
+    border-radius: 0 32px 0 0;
+}
+
+.discount_container li .img_wrap .label_discount .percent_num {
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: $font-bold;
+}
+
+.discount_container li .img_wrap .label_discount .percent_wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.discount_container li .img_wrap .label_discount span {
+    color: $color-white;
+}
+
+.discount_container li p {
+    margin: 32px 0 14px;
+    font-weight: $font-bold;
+}

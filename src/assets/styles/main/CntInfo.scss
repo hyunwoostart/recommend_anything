@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import '../_variables.scss';
+
+.bg_section {
+    padding: 130px 0 80px;
+    background: #cfcfcf;
+}
+
+.cntinfo_wrap {
+    margin: 0 auto;
+    max-width: 1230px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: $border-radiu;
+}
+
+.cntinfo_wrap div {
+    padding: 55px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.cntinfo_wrap div::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 100%;
+    background: #cfcfcf;
+}
+
+.cntinfo_wrap div:last-of-type::after {
+    display: none;
+}
+
+.cntinfo_wrap div strong {
+    font-size: 2rem;
+    line-height: 1;
+    color: $primary-color;
+    font-weight: $font-bold;
+}
+
+.cntinfo_wrap img {
+    width: 136px;
+}

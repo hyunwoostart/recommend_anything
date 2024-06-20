@@ -1,0 +1,304 @@
+@charset "utf-8";
+@import './_variables.scss';
+
+/* 모바일 - 375 사이즈 */
+@media screen and (max-width: 375px) {
+  .procced_info .btn {
+    height: 4rem !important;
+  }
+
+  .product_container .prd_prepare .tabs li {
+    padding: 8px !important;
+  }
+}
+
+/* 큰 모바일, 작은 태블릿 - 530 사이즈 */
+@media screen and (max-width: 530px) {
+  .proced_box .btn span::after {
+    display: none !important;
+  }
+
+  .tabs_cnt.info .info_wrap .info_box div {
+    flex-direction: column;     
+  }
+}
+
+/* 모바일, 태블릿 기준 - 764 사이즈 */
+@media screen and (max-width: 764px) {
+    [class$=_container] {
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    [class$=_container] h3 {
+        margin-bottom: 35px
+    }
+
+    .proceed_container .proceed_wrap h3, 
+    .proceed_container .proceed_wrap h3 span {
+        font-size: 1.4rem;
+    }
+
+    .proceed_container .proced_box img {
+        width: 50%;
+    }
+
+    .proceed_container .proced_box .btn span {
+        font-size: 1rem;
+    }
+
+    .bg_wrap01 {
+        padding: 0 !important;
+        margin-bottom: 40px !important;
+    }
+    
+    .main_container .main_tit {
+        font-size: 4rem !important;
+    }
+
+    .main_container .main_subtit {
+        display: none;
+    }
+
+    .header .header_location, 
+    .header .search_wrap {
+        display: none !important;
+    }
+    .header .header_wrap {
+        flex-direction: column;
+        align-items: start !important;
+        justify-content: center !important;
+        margin: 0 20px !important;
+    }
+    .header_location {
+        padding: 16px 0;
+    }
+
+    .cnt_container {
+        display: none !important;
+    }
+
+    .popular_wrap {
+        flex-wrap: wrap !important;
+    }
+
+    .popular_wrap li {
+        width: 48%;
+    }
+
+    .popular_wrap li + li {
+        margin-left: 0 !important;
+        margin-bottom: 24px;
+    }
+
+    .featlist_container .featlist_wrap {
+      margin-bottom: 0px;
+
+      li {
+        width: 100%;
+      }
+    }
+
+    .searchprd_wrap {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 44px !important;
+    }
+
+    .searchprd_wrap li {
+        width: 30%;
+    }
+
+    .searchprd_wrap li  + li {
+        margin-left: 0 !important;
+    }
+
+    .bg_section {
+        display: none !important;
+    }
+
+    .procced_info {
+        padding: 15px !important;
+    }
+
+    .procced_info p {
+        margin: 10px 0 30px !important;
+    }
+
+    .btn {      
+        // 사이즈 관리
+        &.large {
+          // height: 3rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          font-size: 1.25rem;
+        }
+      
+        &.medium {
+          height: 2.25rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          font-size: 1rem;
+        }
+      
+        &.small {
+          height: 1.75rem;
+          font-size: 0.875rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+        }
+      
+        &.point {
+          background: linear-gradient(95.71deg, #E50914 -39.64%, #B20710 135.31%);;
+        }
+      
+        background: $primary-color;
+        &:hover {
+          background: lighten($primary-color, 10%);
+        }
+      
+        &:active {
+          background: darken($primary-color, 10%);
+        }
+      
+        & + & {
+          margin-left: 1rem;
+        }
+      }
+
+      footer {
+        padding: 40px 0 80px !important;
+      }
+
+      footer .footer_top {
+        padding-bottom: 50px;
+      }
+
+      footer .company_wrap {
+        width: 100%;
+      }
+
+      .footer_bottom {
+        flex-direction: column;
+      }
+
+      footer .btn_wrap input {
+        width: 100%;
+      }
+
+      footer .btn_wrap {
+        flex-direction: column !important;
+      }
+
+      footer .btn_wrap .btn {
+        margin-top: 16px;
+        height: 3rem;
+      }
+
+      .prdfind_wrap ul {
+        flex-wrap: wrap;
+        justify-content: start !important;
+      }
+      
+      .product_container {
+        padding: 0;
+      }
+
+      .product_container .prd_box {
+        flex-direction: column;
+      }
+
+      .product_container .prd_prepare {
+        width: 100% !important;
+      }
+
+      .product_container .prd_paper {
+        position: fixed;
+        bottom: 0;
+        margin: 0 !important;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+        width: 100% !important;
+        height: 80px;
+        z-index: 1;
+        
+        a {
+          width: 64%;
+
+          &:first-of-type {
+            width: 33.3% !important;
+          }
+        }
+      }
+
+      .product_container .prd_paper div {
+        display: none;
+      }
+
+      .product_container .prd_paper h3 {
+        margin-right: 10px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        height: 4rem;
+        z-index: 1;
+      }
+
+      .prdpayment_container {
+        .prd_paper {
+          position: relative;
+          display: block;
+          flex-direction: column;
+          align-items: center;
+          height: auto;
+          padding-bottom: 40px !important;
+        }
+  
+        .prd_paper div {
+          display: block;
+          margin-bottom: 24px !important;
+        }
+
+        .prd_paper h3 {
+          width: 100%;
+          justify-content: start;
+          border-radius: 0 !important;
+        }
+      }
+
+      .modal {
+        .modal_content {
+          overflow-y: auto;
+          top: auto;
+          left: auto;
+          transform: initial;
+          width: 100%;
+          height: 100%;
+        }
+        .modalbtn_wrap {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          padding: 10px;
+          width: 100% !important;
+          z-index: 2;
+          display: flex;
+          background: $color-white;
+          transform: initial;
+        }
+      }
+}
+
+/* PC 기준 - 1024 사이즈 */
+@media screen and (min-width: 1024px){
+  .login_container {
+    // width: 50%;
+    max-width: 764px;
+  }
+}
+
+

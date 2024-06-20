@@ -1,0 +1,103 @@
+@charset "utf-8";
+@import './_variables.scss';
+
+footer {
+    padding: 100px 0 80px;
+    margin-bottom: 0 !important;
+    background: #000;
+}
+footer div,
+footer strong,
+footer p,
+footer li,
+footer a,
+footer button {
+    color: $color-white;
+}
+
+.footer_container {
+    margin-bottom: 0;
+}
+
+.footer_container .sub_tit {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 1.4rem;
+    font-weight: $font-bold;
+}
+.footer_top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #424242;
+}
+
+.footer_bottom {
+    padding: 60px 0;
+    border-bottom: 2px solid #424242;
+}
+
+.footer_bottom, 
+.company_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li {
+    margin-bottom: 16px;
+}
+
+.company_wrap {
+    width: 50%;
+    flex-wrap: wrap;
+}
+
+.company_wrap div + div {
+    // margin-left: 116px;
+}
+
+footer .address_wrap p {
+    font-size: 1.3rem;
+}
+
+footer .btn_wrap {
+    display: flex;
+    margin-top: 40px;
+}
+
+footer .btn_wrap label {
+    position: relative;
+}
+
+footer .btn_wrap input {
+    padding-left: 50px;
+    margin-right: 16px;
+    min-width: 334px;
+    height: 60px;
+    background: #424242;
+    color: #ADADAD;
+    border: none;
+    border-radius: $border-radiu;
+}
+
+footer .btn_wrap label::before {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width: 24px;
+    height: 18px;
+    background: url('../images/common/ico_letter.png') center / contain no-repeat;
+
+}
+
+footer .copy_tit {
+    padding-top: 16px;
+    text-align: center;
+}
+
+
+

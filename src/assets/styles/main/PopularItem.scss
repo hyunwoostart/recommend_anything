@@ -1,0 +1,47 @@
+@charset "utf-8";
+@import '../_variables.scss';
+
+
+.popular_container h3 {
+    // font-weight: $font-bold;
+}
+
+.popular_wrap {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: wrap;
+}
+
+.popular_wrap li + li {
+    margin-left: 16px;
+}
+
+.popular_container .img_wrap img {
+    border-radius: $border-radiu;
+}
+
+.info_wrap {
+    margin-bottom: 16px;
+}
+
+.info_wrap p,
+.info_wrap strong span {
+    font-weight: $font-bold;
+}
+
+.info_wrap strong span {
+    position: relative;
+    padding-left: 20px;
+    color: $primary-color;
+}
+
+.info_wrap strong span::before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    background: url('../../images/common/ico_location.png') center / contain no-repeat;
+}
