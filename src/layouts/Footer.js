@@ -64,16 +64,16 @@ function Footer() {
                             <strong className='sub_tit'>Company</strong>
                             <ul>
                                 <li>
-                                    <a href='#'>About us</a>
+                                    <a href='#none'>About us</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Team</a>
+                                    <a href='#none'>Team</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Careers</a>
+                                    <a href='#none'>Careers</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Blog</a>
+                                    <a href='#none'>Blog</a>
                                 </li>
                             </ul>
                         </div>
@@ -81,13 +81,13 @@ function Footer() {
                             <strong className='sub_tit'>Contact</strong>
                             <ul>
                                 <li>
-                                    <a href='#'>Help & Support</a>
+                                    <a href='#none'>Help & Support</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Partner with us </a>
+                                    <a href='#none'>Partner with us </a>
                                 </li>
                                 <li>
-                                    <a href='#'>Ride with us</a>
+                                    <a href='#none'>Ride with us</a>
                                 </li>
                             </ul>
                         </div>
@@ -95,16 +95,16 @@ function Footer() {
                             <strong className='sub_tit'>Company</strong>
                             <ul>
                                 <li>
-                                    <a href='#'>Terms & Conditions</a>
+                                    <a href='#none'>Terms & Conditions</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Refund & Cancellation</a>
+                                    <a href='#none'>Refund & Cancellation</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Privacy Policy</a>
+                                    <a href='#none'>Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href='#'>Cookie Policy</a>
+                                    <a href='#none'>Cookie Policy</a>
                                 </li>
                             </ul>
                         </div>
