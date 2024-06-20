@@ -1,11 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import '../assets/styles/Home.scss'
 import PrdDiscount from '../components/PrdDiscount'
-import CntHow from '../components/CntHow'
 import PopularItem from '../components/PopularItem'
 import Featlist from '../components/Featlist'
 import SearchPrd from '../components/SearchPrd'
-import CntInfo from '../components/CntInfo'
 import ProceedItem from '../components/ProceedItem'
 import ReadyTo from '../components/ReadyTo'
 
