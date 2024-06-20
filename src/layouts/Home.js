@@ -44,11 +44,11 @@ function Home() {
             </main>
         </div>
         <PrdDiscount />
-        <CntHow />
+        {/* <CntHow /> */}
         <PopularItem />
         <Featlist />
         <SearchPrd />
-        <CntInfo />
+        {/* <CntInfo /> */}
         <ProceedItem />
         <ReadyTo />
     </>

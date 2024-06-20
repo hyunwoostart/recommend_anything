@@ -264,6 +264,8 @@
     .review_count {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        margin: 10px 0;
 
         .count_comment {
             display: flex;

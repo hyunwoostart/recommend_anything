@@ -9,6 +9,8 @@ import Login from './layouts/Login';
 import Product from './layouts/Product.js'
 import PrdPayment from './layouts/PrdPayment.js';
 import OrderList from './layouts/OrderList.js';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 function App() {
 
@@ -23,6 +25,7 @@ function App() {
           <Route path='/payment' element={<PrdPayment />}/>
           <Route path='/orderlist' element={<OrderList />}/>
           {/* <Product /> */}
+          
         </Routes>
         <Footer />
       </Router>
