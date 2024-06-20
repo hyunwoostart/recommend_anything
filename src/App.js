@@ -9,7 +9,7 @@ import Login from './layouts/Login';
 import Product from './layouts/Product.js'
 import PrdPayment from './layouts/PrdPayment.js';
 import OrderList from './layouts/OrderList.js';
-
+/* eslint-disable jsx-a11y/anchor-is-valid  */
 function App() {
 
   return (
