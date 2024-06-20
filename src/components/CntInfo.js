@@ -11,15 +11,15 @@ function CntInfo() {
             <div className='cntinfo_container'>
                 <div className='cntinfo_wrap'>
                     <div>
-                        <img src={cntinfoImg}/>
+                        <img alt="img" src={cntinfoImg}/>
                         <strong>Daily Discounts</strong>
                     </div>
                     <div>
-                        <img src={cntinfoImg2}/>
+                        <img alt="img" src={cntinfoImg2}/>
                         <strong>Daily Discounts</strong>
                     </div>
                     <div>
-                        <img src={cntinfoImg3}/>
+                        <img alt="img" src={cntinfoImg3}/>
                         <strong>Daily Discounts</strong>
                     </div>
                 </div>

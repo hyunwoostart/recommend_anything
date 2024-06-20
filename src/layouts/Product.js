@@ -43,7 +43,7 @@ function Product() {
                 <div className='prd_prepare'>
                     <h3>후라이드참잘하는집 - 서강대점</h3>
                     <div className="infobrand_wrap">
-                        <img src={brandlogoImg} className="small_img"/>
+                        <img alt="img" src={brandlogoImg} className="small_img"/>
                         <div>
                             <span><i className="icon"></i>46</span>
                             <p className='point_condition'><span>16,000</span>원 이상 주문시 <span>2,500</span>원 할인</p>

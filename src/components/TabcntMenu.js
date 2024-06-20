@@ -40,35 +40,35 @@ function TabcntMenu(){
         <ul>
             <li>
                 <div onClick={ () => setModalOpen(true)}>
-                    <img src={prdImg} className='prd_img' />
+                    <img alt="img" src={prdImg} className='prd_img' />
                     <strong>후라이드</strong>
                     <p><span>16,000</span>원</p>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={prdImg} className='prd_img' />
+                    <img alt="img" src={prdImg} className='prd_img' />
                     <strong>후라이드</strong>
                     <p><span>16,000</span>원</p>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={prdImg} className='prd_img' />
+                    <img alt="img" src={prdImg} className='prd_img' />
                     <strong>후라이드</strong>
                     <p><span>16,000</span>원</p>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={prdImg} className='prd_img' />
+                    <img alt="img" src={prdImg} className='prd_img' />
                     <strong>후라이드</strong>
                     <p><span>16,000</span>원</p>
                 </div>
             </li>
             <li>
                 <div>
-                    <img src={prdImg} className='prd_img' />
+                    <img alt="img" src={prdImg} className='prd_img' />
                     <strong>후라이드</strong>
                     <p><span>16,000</span>원</p>
                 </div>
@@ -89,7 +89,7 @@ function TabcntMenu(){
                         </div>
                         <div className='option_wrap'>
                             <div className='img_wrap'>
-                                <img src={prdImg}/>
+                                <img alt="img" src={prdImg}/>
                                 <h4>더블팝순살 양념</h4>
                                 <p>크런치한 바삭함과 촉촉 부드러운 순살이 더블! 깊고 진한 바베큐소스 양념 위에 치즈크림소스가 더블!</p>
                             </div>

@@ -18,10 +18,10 @@ function ProceedItem() {
                         <p>Enjoy the large size of sandwiches. Complete  perfect slice of sandwiches.</p>
                         <button className="btn large"><span>Proceed to order</span></button>
                     </div>
-                    <img src={ProceedItemImg}/>
+                    <img alt="img" src={ProceedItemImg}/>
                 </div>
                 <div className='proced_box'>
-                    <img src={ProceedItemImg2}/>
+                    <img alt="img" src={ProceedItemImg2}/>
                     <div className='procced_info'>
                         <h3>Celebrate parties with  
                             <span>Fried Chicken</span>
@@ -38,7 +38,7 @@ function ProceedItem() {
                         <p>Pair up with a friend and enjoy the hot and crispy pizza pops. Try it with the best deals.</p>
                         <button className="btn large"><span>Proceed to order</span></button>
                     </div>
-                    <img src={ProceedItemImg3}/>
+                    <img alt="img" src={ProceedItemImg3}/>
                 </div>
             </div>
         </div>

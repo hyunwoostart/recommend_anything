@@ -9,7 +9,7 @@ function TabcntInfo(){
               <div>
                   <p>업데이트 없습니다</p>
               </div>
-              <img src={prdImg}/>
+              <img alt="img" src={prdImg}/>
           </div>
           <div className='info_box'>
               <h4>업체정보</h4>

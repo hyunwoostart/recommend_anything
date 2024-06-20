@@ -18,37 +18,37 @@ function SearchPrd() {
             <ul className='searchprd_wrap'>
                 <li>
                     <div>
-                        <img src={searchprdImg}/>
+                        <img alt="img" src={searchprdImg}/>
                         <p>Pizza</p>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <img src={searchprdImg2}/>
+                        <img alt="img" src={searchprdImg2}/>
                         <p>Pizza</p>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <img src={searchprdImg3}/>
+                        <img alt="img" src={searchprdImg3}/>
                         <p>Pizza</p>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <img src={searchprdImg4}/>
+                        <img alt="img" src={searchprdImg4}/>
                         <p>Pizza</p>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <img src={searchprdImg5}/>
+                        <img alt="img" src={searchprdImg5}/>
                         <p>Pizza</p>
                     </div>
                 </li>
                 <li>
                     <div>
-                        <img src={searchprdImg6}/>
+                        <img alt="img" src={searchprdImg6}/>
                         <p>Pizza</p>
                     </div>
                 </li>

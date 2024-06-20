@@ -32,7 +32,7 @@ function Login() {
           </div>
           <div className='banner_wrap'>
             <a href='#none'>
-              <img />
+              <img alt="product"/>
             </a>
           </div>
         </div>

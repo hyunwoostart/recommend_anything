@@ -12,22 +12,22 @@ function CntHow() {
             <h3 className='how_tit'>How does it work</h3>
             <div className='work_wrap'>
                 <div>
-                    <img src={cnthowImg}/>
+                    <img alt="img" src={cnthowImg}/>
                     <p className='how_subtit'>Select location</p>
                     <span>Choose the location where your food will be delivered.</span>
                 </div>
                 <div>
-                    <img src={cnthowImg2}/>
+                    <img alt="img" src={cnthowImg2}/>
                     <p className='how_subtit'>Select location</p>
                     <span>Choose the location where your food will be delivered.</span>
                 </div>
                 <div>
-                    <img src={cnthowImg3}/>
+                    <img alt="img" src={cnthowImg3}/>
                     <p className='how_subtit'>Select location</p>
                     <span>Choose the location where your food will be delivered.</span>
                 </div>
                 <div>
-                    <img src={cnthowImg4}/>
+                    <img alt="img" src={cnthowImg4}/>
                     <p className='how_subtit'>Select location</p>
                     <span>Choose the location where your food will be delivered.</span>
                 </div>

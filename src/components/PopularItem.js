@@ -14,7 +14,7 @@ function PopularItem() {
             <ul className='popular_wrap'>
                 <li>
                     <div className='img_wrap'>
-                        <img src={popularImg}/>
+                        <img alt="img" src={popularImg}/>
                     </div>
                     <div className='info_wrap'>
                         <p>Cheese Burger</p>
@@ -25,7 +25,7 @@ function PopularItem() {
                 </li>
                 <li>
                     <div className='img_wrap'>
-                        <img src={popularImg2}/>
+                        <img alt="img" src={popularImg2}/>
                     </div>
                     <div className='info_wrap'>
                         <p>Cheese Burger</p>
@@ -36,7 +36,7 @@ function PopularItem() {
                 </li>
                 <li>
                     <div className='img_wrap'>
-                        <img src={popularImg3}/>
+                        <img alt="img" src={popularImg3}/>
                     </div>
                     <div className='info_wrap'>
                         <p>Cheese Burger</p>
@@ -47,7 +47,7 @@ function PopularItem() {
                 </li>
                 <li>
                     <div className='img_wrap'>
-                        <img src={popularImg4}/>
+                        <img alt="img" src={popularImg4}/>
                     </div>
                     <div className='info_wrap'>
                         <p>Cheese Burger</p>
@@ -58,7 +58,7 @@ function PopularItem() {
                 </li>
                 <li>
                     <div className='img_wrap'>
-                        <img src={popularImg5}/>
+                        <img alt="img" src={popularImg5}/>
                     </div>
                     <div className='info_wrap'>
                         <p>Cheese Burger</p>

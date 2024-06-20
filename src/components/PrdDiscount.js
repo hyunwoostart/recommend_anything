@@ -12,7 +12,7 @@ function PrdDiscount() {
                 <Link to="/product">
                     <div>
                         <div className='img_wrap'>
-                            <img src={discountImg}/>
+                            <img alt="img" src={discountImg}/>
                             <p className='label_discount'>
                                 <span className='percent_num'>15</span>
                                 <span className='percent_wrap'>
@@ -29,7 +29,7 @@ function PrdDiscount() {
             <li>
                 <div>
                     <div className='img_wrap'>
-                        <img src={discountImg}/>
+                        <img alt="img" src={discountImg}/>
                         <p className='label_discount'>
                             <span className='percent_num'>10</span>
                             <span className='percent_wrap'>
@@ -45,7 +45,7 @@ function PrdDiscount() {
             <li>
                 <div>
                     <div className='img_wrap'>
-                        <img src={discountImg}/>
+                        <img alt="img" src={discountImg}/>
                         <p className='label_discount'>
                             <span className='percent_num'>25</span>
                             <span className='percent_wrap'>
@@ -61,7 +61,7 @@ function PrdDiscount() {
             <li>
                 <div>
                     <div className='img_wrap'>  
-                        <img src={discountImg}/>
+                        <img alt="img" src={discountImg}/>
                         <p className='label_discount'>
                             <span className='percent_num'>20</span>
                             <span className='percent_wrap'>

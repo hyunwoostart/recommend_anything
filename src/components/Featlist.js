@@ -13,14 +13,14 @@ function Featlist() {
                 <li>
                     <div>
                         <div className='img_wrap'>
-                            <img src={featprdImg}/>
+                            <img alt="img" src={featprdImg}/>
                             <div className='label_box'>
                                 <span className='label_small label_sale'><span>20%</span><span>off</span></span>
                                 <span className='label_small label_howlong'><span>Fast</span></span>
                             </div>
                         </div>
                         <div className='infobrand_wrap'>
-                            <img src={brandlogoImg} className='small_img'/>
+                            <img alt="img" src={brandlogoImg} className='small_img'/>
                             <div>
                                 <p>Foodworld</p>
                                 <span><i className='icon'></i>46</span>
@@ -32,14 +32,14 @@ function Featlist() {
                 <li>
                     <div>
                         <div className='img_wrap'>
-                            <img src={featprdImg}/>
+                            <img alt="img" src={featprdImg}/>
                             <div className='label_box'>
                                 <span className='label_small label_sale'><span>20%</span><span>off</span></span>
                                 <span className='label_small label_howlong'><span>Fast</span></span>
                             </div>
                         </div>
                         <div className='infobrand_wrap'>
-                            <img src={brandlogoImg} className='small_img'/>
+                            <img alt="img" src={brandlogoImg} className='small_img'/>
                             <div>
                                 <p>Foodworld</p>
                                 <span><i className='icon'></i>46</span>
@@ -51,14 +51,14 @@ function Featlist() {
                 <li>
                     <div>
                         <div className='img_wrap'>
-                            <img src={featprdImg}/>
+                            <img alt="img" src={featprdImg}/>
                             <div className='label_box'>
                                 <span className='label_small label_sale'><span>20%</span><span>off</span></span>
                                 <span className='label_small label_howlong'><span>Fast</span></span>
                             </div>
                         </div>
                         <div className='infobrand_wrap'>
-                            <img src={brandlogoImg} className='small_img'/>
+                            <img alt="img" src={brandlogoImg} className='small_img'/>
                             <div>
                                 <p>Foodworld</p>
                                 <span><i className='icon'></i>46</span>
@@ -70,14 +70,14 @@ function Featlist() {
                 <li>
                     <div>
                         <div className='img_wrap'>
-                            <img src={featprdImg}/>
+                            <img alt="img" src={featprdImg}/>
                             <div className='label_box'>
                                 <span className='label_small label_sale'><span>20%</span><span>off</span></span>
                                 <span className='label_small label_howlong'><span>Fast</span></span>
                             </div>
                         </div>
                         <div className='infobrand_wrap'>
-                            <img src={brandlogoImg} className='small_img'/>
+                            <img alt="img" src={brandlogoImg} className='small_img'/>
                             <div>
                                 <p>Foodworld</p>
                                 <span><i className='icon'></i>46</span>
@@ -89,14 +89,14 @@ function Featlist() {
                 <li>
                     <div>
                         <div className='img_wrap'>
-                            <img src={featprdImg}/>
+                            <img alt="img" src={featprdImg}/>
                             <div className='label_box'>
                                 <span className='label_small label_sale'><span>20%</span><span>off</span></span>
                                 <span className='label_small label_howlong'><span>Fast</span></span>
                             </div>
                         </div>
                         <div className='infobrand_wrap'>
-                            <img src={brandlogoImg} className='small_img'/>
+                            <img alt="img" src={brandlogoImg} className='small_img'/>
                             <div>
                                 <p>Foodworld</p>
                                 <span><i className='icon'></i>46</span>
@@ -108,14 +108,14 @@ function Featlist() {
                 <li>
                     <div>
                         <div className='img_wrap'>
-                            <img src={featprdImg}/>
+                            <img alt="img" src={featprdImg}/>
                             <div className='label_box'>
                                 <span className='label_small label_sale'><span>20%</span><span>off</span></span>
                                 <span className='label_small label_howlong'><span>Fast</span></span>
                             </div>
                         </div>
                         <div className='infobrand_wrap'>
-                            <img src={brandlogoImg} className='small_img'/>
+                            <img alt="img" src={brandlogoImg} className='small_img'/>
                             <div>
                                 <p>Foodworld</p>
                                 <span><i className='icon'></i>46</span>
@@ -127,14 +127,14 @@ function Featlist() {
                 <li>
                     <div>
                         <div className='img_wrap'>
-                            <img src={featprdImg}/>
+                            <img alt="img" src={featprdImg}/>
                             <div className='label_box'>
                                 <span className='label_small label_sale'><span>20%</span><span>off</span></span>
                                 <span className='label_small label_howlong'><span>Fast</span></span>
                             </div>
                         </div>
                         <div className='infobrand_wrap'>
-                            <img src={brandlogoImg} className='small_img'/>
+                            <img alt="img" src={brandlogoImg} className='small_img'/>
                             <div>
                                 <p>Foodworld</p>
                                 <span><i className='icon'></i>46</span>
@@ -146,14 +146,14 @@ function Featlist() {
                 <li>
                     <div>
                         <div className='img_wrap'>
-                            <img src={featprdImg}/>
+                            <img alt="img" src={featprdImg}/>
                             <div className='label_box'>
                                 <span className='label_small label_sale'><span>20%</span><span>off</span></span>
                                 <span className='label_small label_howlong'><span>Fast</span></span>
                             </div>
                         </div>
                         <div className='infobrand_wrap'>
-                            <img src={brandlogoImg} className='small_img'/>
+                            <img alt="img" src={brandlogoImg} className='small_img'/>
                             <div>
                                 <p>Foodworld</p>
                                 <span><i className='icon'></i>46</span>

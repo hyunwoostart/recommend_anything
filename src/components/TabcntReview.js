@@ -68,8 +68,8 @@ function TabcntReview(){
                           <p>배달<i className="icon"></i><span>4</span></p>
                       </div>
                       <div className='img_wrap'>
-                          <img />
-                          <img /> 
+                          <img alt="product"/>
+                          <img alt="product"/> 
                       </div>
                       <span className='sub_txt'>리얼 아보카도 콥 샐러드/1(드레싱 선택(랜치 드레싱)),갈릭 베이컨 치즈 세트/1(음료변경（1인세트）(카페라떼 ICE),</span>
                       <p className='sub_txtcnt'>맛있게 잘먹었습니다.</p>
@@ -91,7 +91,7 @@ function TabcntReview(){
                           <p>배달<i className="icon"></i><span>4</span></p>
                       </div>
                       <div className='img_wrap'>
-                          <img src={prdImg}/>
+                          <img alt="img" src={prdImg}/>
                       </div>
                       <span className='sub_txt'>리얼 아보카도 콥 샐러드/1(드레싱 선택(랜치 드레싱)),갈릭 베이컨 치즈 세트/1(음료변경（1인세트）(카페라떼 ICE),</span>
                       <p className='sub_txtcnt'>맛있게 잘먹었습니다.</p>
@@ -113,7 +113,7 @@ function TabcntReview(){
                           <p>배달<i className="icon"></i><span>4</span></p>
                       </div>
                       <div className='img_wrap'>
-                          <img />
+                          <img alt="product"/>
                       </div>
                       <span className='sub_txt'>리얼 아보카도 콥 샐러드/1(드레싱 선택(랜치 드레싱)),갈릭 베이컨 치즈 세트/1(음료변경（1인세트）(카페라떼 ICE),</span>
                       <p className='sub_txtcnt'>맛있게 잘먹었습니다.</p>
